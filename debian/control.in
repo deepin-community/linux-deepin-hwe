@@ -8,7 +8,7 @@ Homepage: http://www.deepin.com
 
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
-Depends: linux-image-ABINAME-amd64-desktop-community-hwe
+Depends: linux-image-ABINAME-amd64-desktop-hwe
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -18,7 +18,7 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
-Depends: linux-headers-ABINAME-amd64-desktop-community-hwe
+Depends: linux-headers-ABINAME-amd64-desktop-hwe
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
