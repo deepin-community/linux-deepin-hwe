@@ -1,3 +1,9 @@
+linux-deepin-hwe (6.6.21-hwe) unstable; urgency=medium
+
+  * update kernel 6.6.21
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 19 Mar 2024 02:49:20 +0800
+
 linux-deepin-hwe (6.6.7-hwe) unstable; urgency=medium
 
   * update kernel 6.6.7 
