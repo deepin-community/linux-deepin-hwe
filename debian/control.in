@@ -25,7 +25,7 @@ Description: Header files for Linux amd64 configuration (meta-package)
 
 Package: linux-image-deepin-hwe-arm64
 Architecture: arm64
-Depends: linux-image-ARM64ABINAME
+Depends: linux-image-ARM64ABINAME-arm64-desktop-hwe
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -35,14 +35,14 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-headers-deepin-hwe-arm64
 Architecture: arm64
-Depends: linux-headers-ARM64ABINAME
+Depends: linux-headers-ARM64ABINAME-arm64-desktop-hwe
 Description: Header files for Linux arm64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
 Package: linux-image-deepin-hwe-loong64
 Architecture: loong64
-Depends: linux-image-LOONG64ABINAME
+Depends: linux-image-LOONG64ABINAME-loong64-desktop-hwe
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -52,7 +52,7 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-headers-deepin-hwe-loong64
 Architecture: loong64
-Depends: linux-headers-LOONG64ABINAME
+Depends: linux-headers-LOONG64ABINAME-loong64-desktop-hwe
 Description: Header files for Linux loong64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
