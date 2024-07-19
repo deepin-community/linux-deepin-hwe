@@ -1,3 +1,9 @@
+linux-deepin-hwe (6.6.40-1) unstable; urgency=medium
+
+  * update kernel 6.6.40.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 19 Jul 2024 15:02:02 +0800
+
 linux-deepin-hwe (6.6.36-2) unstable; urgency=medium
 
   * x86 kernel update 6.6.38.
