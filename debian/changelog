@@ -1,3 +1,9 @@
+linux-deepin-hwe (6.6.47-1) unstable; urgency=medium
+
+  * Update kernel to 6.6.47.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Wed, 21 Aug 2024 09:59:03 +0800
+
 linux-deepin-hwe (6.6.40-1) unstable; urgency=medium
 
   * update kernel 6.6.40.
