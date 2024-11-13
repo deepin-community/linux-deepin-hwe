@@ -16,6 +16,16 @@ Description: Linux for 64-bit PCs (meta-package)
  This kernel also runs on a Xen hypervisor.  It supports both privileged
  (dom0) and unprivileged (domU) operation.
 
+Package: linux-image-deepin-hwe-amd64-dbg
+Architecture: amd64
+Depends: linux-image-AMD64ABINAME-amd64-desktop-hwe-dbg
+Description: Linux for 64-bit PCs (meta-package for debug symbols)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
 Depends: linux-headers-AMD64ABINAME-amd64-desktop-hwe
@@ -33,6 +43,16 @@ Description: Linux for 64-bit PCs (meta-package)
  This kernel also runs on a Xen hypervisor.  It supports both privileged
  (dom0) and unprivileged (domU) operation.
 
+Package: linux-image-deepin-hwe-arm64-dbg
+Architecture: arm64
+Depends: linux-image-ARM64ABINAME-arm64-desktop-hwe-dbg
+Description: Linux for 64-bit PCs (meta-package for debug symbols)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
 Package: linux-headers-deepin-hwe-arm64
 Architecture: arm64
 Depends: linux-headers-ARM64ABINAME-arm64-desktop-hwe
@@ -44,6 +64,16 @@ Package: linux-image-deepin-hwe-loong64
 Architecture: loong64
 Depends: linux-image-LOONG64ABINAME-loong64-desktop-hwe
 Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-deepin-hwe-loong64-dbg
+Architecture: loong64
+Depends: linux-image-LOONG64ABINAME-loong64-desktop-hwe-dbg
+Description: Linux for 64-bit PCs (meta-package for debug symbols)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
  .
