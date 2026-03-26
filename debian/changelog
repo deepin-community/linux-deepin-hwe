@@ -1,3 +1,9 @@
+linux-deepin-hwe (6.6.127-2) unstable; urgency=medium
+
+  * add Provides: linux-image-6.6.0-loong64-desktop Provides: linux-headers-6.6.0-loong64-desktop
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 26 Mar 2026 16:19:42 +0800
+
 linux-deepin-hwe (6.6.127-1) unstable; urgency=medium
 
   * update kernel to 6.6.127.
