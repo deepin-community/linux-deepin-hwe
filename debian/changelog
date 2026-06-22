@@ -1,3 +1,10 @@
+linux-deepin-hwe (6.6.143-1) unstable; urgency=medium
+
+  * update kernel to 6.6.143.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 22 Jun 2026 16:00:00 +0800
+
+
 linux-deepin-hwe (6.6.142-1) unstable; urgency=medium
 
   * update kernel to 6.6.142.
