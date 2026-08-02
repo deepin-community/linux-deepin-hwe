@@ -1,6 +1,6 @@
-amd64_abiname=6.6.143
-arm64_abiname=6.6.143
-loong64_abiname=6.6.143
+amd64_abiname=6.6.148
+arm64_abiname=6.6.148
+loong64_abiname=6.6.148
 ARCH_BUILD :=$(shell uname -m)
 all: build
 build:
